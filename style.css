@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+/* **** Cabeçalho ***** */
+
+#header{
+background-color: black;
+color: white
+}
+
+/* ***** Área postagens ***** */ 
+
+#area_postagens1{
+    
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#fileira1 {
+ float: left;
+}
+
+#fileira2 {
+    float: right;
+}
+
+.produtos {
+    text-align: center;
+    width: 450px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(163, 162, 162) ;
+}
+
+.tamanhoImg {
+    width: 300px;
+    height: 320;   
+}
+
+
+/* ***** Área do Rodapé ***** */
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background-color: gray;
+}
