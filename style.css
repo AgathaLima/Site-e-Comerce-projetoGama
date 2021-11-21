@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-}
 
 body {
     background-color: #e6e6e6;
@@ -20,28 +15,24 @@ color: white
 
 #area_postagens1{
     
-    width: 1000px;
-    margin: 0 auto;
+    width: 70%;
+    margin: 
     padding: 20px;
+    display: flex;
 }
 
-#fileira1 {
- float: left;
-}
-
-#fileira2 {
-    float: right;
-}
 
 .produtos {
     text-align: center;
-    width: 450px;
+    width: 350px;
     padding: 20px;
+    margin: 5%;
     border-bottom: 1px solid rgb(163, 162, 162) ;
+    border: 1px solid red;
 }
 
 .tamanhoImg {
-    width: 300px;
+    width: 200px;
     height: 320;   
 }
 
