@@ -14,21 +14,60 @@ header{
     background-color:black
 }
 
-/* h1 {
-    background-color: black;
-    color: white;
-    padding-bottom: 2px;
+ul {
+    list-style-type: none;
+    background-color: white;
+    display: flex;
+    width: 150px;
+    margin-left: 40px;
+    
+   
 }
 
-span{
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-} */
+ul li {
+    display: inline;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+   
+}
+
+ul li:hover {
+    display: block;
+    
+}
+
+ul ul {
+   width: 150px;
+    
+}
+
+ul li:hover ul {
+    display: block;
+    
+}
+
+
+/* **** ÁREA DE NAVEGAÇÃO **** */
 
 nav {
     background-color: black;
-    border: 2px groove white;
+    border: 2px solid white;
     padding: 20px;
     margin: 0 auto;
     clear: both;
