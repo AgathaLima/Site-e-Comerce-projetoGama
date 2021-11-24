@@ -14,54 +14,6 @@ header{
     background-color:black
 }
 
-ul {
-    list-style-type: none;
-    background-color: white;
-    display: flex;
-    width: 150px;
-    margin-left: 40px;
-    
-   
-}
-
-ul li {
-    display: inline;
-    position: relative;
-}
-
-ul li a {
-    display: block;
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px;
-}
-
-ul li a:hover {
-    background-color: black;
-    color: white;
-}
-
-ul ul {
-    display: none;
-    position: absolute;
-   
-}
-
-ul li:hover {
-    display: block;
-    
-}
-
-ul ul {
-   width: 150px;
-    
-}
-
-ul li:hover ul {
-    display: block;
-    
-}
-
 
 /* **** ÁREA DE NAVEGAÇÃO **** */
 
@@ -101,6 +53,68 @@ nav {
     height: 200px;
 }
 
+/* *** ÁREA DO FILTRO **** */
+
+.filtro {
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.filtro ul {
+    list-style: none;
+    color: black;
+    width: 130px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    
+}
+
+.filtro ul li {
+    background-color: white;
+    color: black;
+    width: 130px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+   
+}
+
+.filtro ul a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0;
+   
+}
+
+.filtro li ul li:hover {
+    background-color: black;
+
+}
+
+.filtro ul li ul li a:hover {
+    color: white;
+}
+
+.filtro li ul {
+    display: none;
+    margin: 0;
+    width: 0;
+}
+
+.filtro ul > li:hover ul {
+    display: block;
+}
+
 /* **** ÁREA MAIN **** */
 
 section {
@@ -134,4 +148,46 @@ button {
     background-color: black;
     margin-top: 30px;
     color: white;
+}
+
+.controdape {
+    display: flex;  
+    text-align: center;
+    width:600px;
+    margin: 0 auto; 
+    
+}
+
+.controdape p {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.controdape p a {
+   
+    text-decoration: none;
+    color: white;  
+}
+
+.controdape p a:hover {
+   
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+
+.controdape ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.controdape ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.controdape ul li a:hover {
+    text-decoration: underline;
+    font-size: 1.3em;
 }

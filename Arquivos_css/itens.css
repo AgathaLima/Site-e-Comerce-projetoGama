@@ -1,4 +1,3 @@
-/* **** FORMATAÇÕES DE PÁGINA *** */
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +15,11 @@ header{
 }
 
 
-/* **** ÁREA DE NAVEGAÇÃO *** */
+/* **** ÁREA DE NAVEGAÇÃO **** */
 
 nav {
     background-color: black;
-    border: 2px groove white;
+    border: 2px solid white;
     padding: 20px;
     margin: 0 auto;
     clear: both;
@@ -38,6 +37,7 @@ nav {
     padding: 15px;
     color: black;
     font-size: 1.3em;
+    
  }
 
 .logo {
@@ -117,72 +117,63 @@ nav {
 
 /* **** ÁREA MAIN **** */
 
-#container {
-display: flex;
-
-}
-
-.sobretexto {
-    border-radius: 10px;
-    text-align: center;
-    width: 900px;
-    float: right;
-    margin: 50px auto;
-    
-}
-
-.imgsobre {
-    width: 400px;
-    float: left;
-    text-align: center;
-    margin: 50px auto;
-    
-}
-
-.tamimgsobre {
- width: 300px;
- height: 300px;
-}
-
-#equipe {
+section {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    height: 400px;
 }
 
-.tamimgsilhueta{
+.tamimgitens {
+    width: 700px;
+    height: 600px;
+}
+
+.descricao {
+    width: 900px;
     text-align: center;
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
+    padding: 30px;  
+}
+
+.descricao h1 {
+    padding: 20px;
+}
+
+.descricao p{
+    padding: 20px;
+    text-align: justify;
+} 
+
+.pagamento {
+    width: 300px;
+}
+
+#form {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+}
+
+input {
+    width: 400px;
     margin: 10px;
+    height: 25px ;
+}
+
+.cadastro {
+    padding: 5px;
     
 }
-
-.caixasilhueta {
-    width: 250px;
-    height: 250px;
-    margin: 0 60px;
+button {
+    
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px; 
 }
-
-.caixasilhueta p {
-     width: 250px;
-    text-align: center;
-   
-}
-.conheça {
-    display: block;
-    padding-left: 350px;
-
-}
-
-p {
-    padding: 15px;
-    text-align: justify;
-}
-
-
 
 /* **** ÁREA FOOTER *** */
 
