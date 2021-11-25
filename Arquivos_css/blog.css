@@ -75,7 +75,7 @@ nav {
     margin: 0 auto;
     padding-top: 3%;
     display: flex;
-    border: 1px solid red;
+    
 }
 
 .container1 {
@@ -97,6 +97,17 @@ nav {
     font-size: 70%;
     padding: 1%;
     margin: 2.5%;
+}
+
+.container1 h1 {
+    text-align: center;
+    clear: both;
+    padding: 2%;
+    background-color: rgb(97, 95, 95);
+    color: white;
+    border-radius: 30% 0 30% 0;
+    font-size: 100%;
+    width: 70%;
 }
 
 .area_blog {
