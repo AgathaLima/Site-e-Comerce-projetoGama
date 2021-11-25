@@ -148,273 +148,275 @@ nav {
     font-size: 1.3em;
 }
 
-@media (max-width: 375px) {
 
+@media only screen and (max-width: 1024px){
 
     /* **** ÁREA DE NAVEGAÇÃO *** */
 
 nav {
-    background-color: black;
-    border: 2px groove white;
-    padding: 20px;
-    margin: 0 auto;
-    clear: both;
-    text-align: center;
-    font-size: 0.5em;
+background-color: black;
+border: 2px groove white;
+padding: 20px;
+margin: 0 auto;
+clear: both;
+text-align: center;
+font-size: 0.8em;
 }
- nav > a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
- }
+nav > a {
+color: white;
+text-decoration: none;
+margin: 20px;
+}
 
- nav > a:hover {
-    background-color: white;
-    border-radius: 5px;
-    padding: 15px;
-    color: black;
-    font-size: 1.3em;
- }
+nav > a:hover {
+background-color: white;
+border-radius: 5px;
+padding: 15px;
+color: black;
+font-size: 1.3em;
+}
 
 .logo {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+display: flex;
+width: 200px;
+height: 200px;
+margin: 0 auto;
 
 }
 
 .logoimg{
-    width: 200px;
-    height: 200px;
+width: 200px;
+height: 200px;
 }
 
 /* main */
-    
-    .container_principal {
-        background-color: #e6e6e6;
-        border: 1px solid green;
-        width: 100%;
-        padding-top: 2px;
-        display: flex;
-        
-    
-    }
+
+.container_principal {
+    background-color: #e6e6e6;
+    border: 1px solid green;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+    display: flex;
+}
 
 
-    .container1 {
-        background-color: white;
-        border: 1px solid red;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+.container1 {
+    background-color: white;
+    border: 1px solid red;
+    width: 100%;
+    margin: auto;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produtos {
+    text-align: center;
+    width: 20%;
     
-    .produtos {
-        text-align: center;
-        width: 80%;
-        padding: 1%;
-        border-bottom: 1px solid rgb(163, 162, 162) ;
-        border: 1px solid black;
-        
-    }
-    
-    .tamanhoImg {
-        width: 200px;
-        height: 250px;
-    }
-    
+    padding: 1%;
+    margin: 5%;
+    border-bottom: 1px solid rgb(163, 162, 162) ;
+    border: 1px solid black;
+}
+
+.tamanhoImg {
+    width: 200px;
+    height: 250px 
+}
+
 /* ***** Área do Rodapé ***** */
 
 .footer {
-    clear: both;
-    text-align: center;
-    background-color: black;
-    margin-top: 30px;
-    color: white;
+clear: both;
+text-align: center;
+background-color: black;
+margin-top: 30px;
+color: white;
 }
 
 .controdape {
-    display: flex;  
-    text-align: center;
-    margin: 0 auto; 
-    font-size: 0.7em;
-    
+display: flex;  
+text-align: center;
+margin: 0 auto; 
+font-size: 1em;
+
 }
 
 .controdape p {
-    margin: 15px;
-    text-decoration: none;
-    color: white;
-    
-    
+margin: 20px;
+text-decoration: none;
+color: white;
+
+
 }
 .controdape p a {
-   
-    text-decoration: none;
-    color: white; 
-     
+
+text-decoration: none;
+color: white; 
+ 
 
 }
 
 .controdape p a:hover {
-   
-    text-decoration: underline;
-    font-size: 1em;
+
+text-decoration: underline;
+font-size: 1em;
 }
 
 
 .controdape ul li {
-    list-style: none;
-    padding: 5px;
+list-style: none;
+padding: 5px;
 }
 
 .controdape ul li a {
-    text-decoration: none;
-    color: white;
+text-decoration: none;
+color: white;
 }
 
 .controdape ul li a:hover {
-    text-decoration: underline;
-    font-size: 1.3em;
+text-decoration: underline;
+font-size: 1.3em;
 }
 
 }
 
+@media only screen and (max-width: 375px) {
 
-@media (max-width: 1024px){
 
-        /* **** ÁREA DE NAVEGAÇÃO *** */
-
-nav {
-    background-color: black;
-    border: 2px groove white;
-    padding: 20px;
-    margin: 0 auto;
-    clear: both;
-    text-align: center;
-    font-size: 0.8em;
-}
- nav > a {
-    color: white;
-    text-decoration: none;
-    margin: 20px;
- }
-
- nav > a:hover {
-    background-color: white;
-    border-radius: 5px;
-    padding: 15px;
-    color: black;
-    font-size: 1.3em;
- }
-
-.logo {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-
-}
-
-.logoimg{
-    width: 200px;
-    height: 200px;
-}
-
-/* main */
-    
-    .container_principal {
-        background-color: #e6e6e6;
-        border: 1px solid green;
-        width: 100%;
+    nav {
+        background-color: black;
+        border: 2px groove white;
+        padding: 20px;
         margin: 0 auto;
-        padding-top: 5px;
-        display: flex;
-    }
-
-
-    .container1 {
-        background-color: white;
-        border: 1px solid red;
-        width: 100%;
-        margin: auto;
-        float: right;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .produtos {
+        clear: both;
         text-align: center;
-        width: 20%;
-        
-        padding: 1%;
-        margin: 5%;
-        border-bottom: 1px solid rgb(163, 162, 162) ;
-        border: 1px solid black;
+        font-size: 0.5em;
     }
+     nav > a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+     }
     
-    .tamanhoImg {
+     nav > a:hover {
+        background-color: white;
+        border-radius: 5px;
+        padding: 15px;
+        color: black;
+        font-size: 1.3em;
+     }
+    
+    .logo {
+        display: flex;
         width: 200px;
-        height: 250px 
+        height: 200px;
+        margin: 0 auto;
+    
     }
     
-/* ***** Área do Rodapé ***** */
-
-.footer {
-    clear: both;
-    text-align: center;
-    background-color: black;
-    margin-top: 30px;
-    color: white;
-}
-
-.controdape {
-    display: flex;  
-    text-align: center;
-    margin: 0 auto; 
-    font-size: 1em;
+    .logoimg{
+        width: 200px;
+        height: 200px;
+    }
     
-}
-
-.controdape p {
-    margin: 20px;
-    text-decoration: none;
-    color: white;
+    /* main */
+        
+        .container_principal {
+            background-color: #e6e6e6;
+            border: 1px solid green;
+            width: 100%;
+            padding-top: 2px;
+            display: flex;
+            
+        
+        }
     
     
-}
-.controdape p a {
-   
-    text-decoration: none;
-    color: white; 
-     
+        .container1 {
+            background-color: white;
+            border: 1px solid red;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .produtos {
+            text-align: center;
+            width: 80%;
+            padding: 1%;
+            border-bottom: 1px solid rgb(163, 162, 162) ;
+            border: 1px solid black;
+            
+        }
+        
+        .tamanhoImg {
+            width: 200px;
+            height: 250px;
+        }
+        
+    /* ***** Área do Rodapé ***** */
+    
+    .footer {
+        clear: both;
+        text-align: center;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+    }
+    
+    .controdape {
+        display: flex;  
+        text-align: center;
+        margin: 0 auto; 
+        font-size: 0.7em;
+        
+    }
+    
+    .controdape p {
+        margin: 15px;
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .controdape p a {
+       
+        text-decoration: none;
+        color: white; 
+         
+    
+    }
+    
+    .controdape p a:hover {
+       
+        text-decoration: underline;
+        font-size: 1em;
+    }
+    
+    
+    .controdape ul li {
+        list-style: none;
+        padding: 5px;
+    }
+    
+    .controdape ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .controdape ul li a:hover {
+        text-decoration: underline;
+        font-size: 1.3em;
+    }
+    
+    }
+    
 
-}
-
-.controdape p a:hover {
-   
-    text-decoration: underline;
-    font-size: 1em;
-}
 
 
-.controdape ul li {
-    list-style: none;
-    padding: 5px;
-}
 
-.controdape ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.controdape ul li a:hover {
-    text-decoration: underline;
-    font-size: 1.3em;
-}
-
-
-}
 
 
