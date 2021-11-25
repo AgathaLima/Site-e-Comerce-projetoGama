@@ -1,12 +1,12 @@
 
-<a href=""> ----> NAVEGUE PELO PROJETO AQUI <---- </a>
+<a href="https://agathalima.github.io/Site-e-Comerce-projetoGama/Arquivos_html/index.html"> ----> NAVEGUE PELO PROJETO AQUI <---- </a>
 
-Olá! Esse site foi um projeto do Nanodegree Gama Academy.
+Olá! Esse site foi um projeto do Nano degree Gama Academy.
 
-A proposta do projeto é um site completo de vendas, utilizando apenas HTML e CSS e ser responsivo.
+A proposta do projeto é um site completo de vendas, utilizando apenas HTML e CSS (deve ser responsivo).
 
 
-Pré requesitos do peojeto:
+Pré requesitos do projeto:
 
 - Uma vitrine virtual de produtos (no melhor estilo Mercado Livre, por exemplo)
 
