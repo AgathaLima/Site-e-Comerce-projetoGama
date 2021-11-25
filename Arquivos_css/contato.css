@@ -1,3 +1,4 @@
+/* **** FORMATAÇÕES DE PÁGINA *** */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ body {
     background-color: rgb(223, 221, 221);
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 /* **** ÁREA HEADER **** */
 
@@ -15,29 +17,34 @@ header{
 }
 
 
-/* **** ÁREA DE NAVEGAÇÃO **** */
+/* **** ÁREA DE NAVEGAÇÃO *** */
 
 nav {
     background-color: black;
-    border: 2px solid white;
-    padding: 20px;
+    border: 2px groove white;
+    padding: 5%;
     margin: 0 auto;
     clear: both;
     text-align: center;
+    font-size: 70%;
+    
 }
  nav > a {
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 0 auto;
+    padding: 1%;
+   
+    
+
  }
 
  nav > a:hover {
     background-color: white;
     border-radius: 5px;
-    padding: 15px;
+    padding: 30%px;
     color: black;
-    font-size: 1.3em;
-    
+    font-size: 100%;
  }
 
 .logo {
@@ -53,67 +60,13 @@ nav {
     height: 200px;
 }
 
-/* *** ÁREA DO FILTRO **** */
 
-.filtro {
-    background-color: white;
-    border: 1px solid gray;
-    color: black;
-    width: 130px;
-    height: 30px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    
-}
-
-.filtro ul {
-    list-style: none;
-    color: black;
-    width: 130px;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    
-}
-
-.filtro ul li {
-    background-color: white;
-    color: black;
-    width: 130px;
-    padding: 10px 0 10px 0;
-    margin: 0;
-   
-}
-
-.filtro ul a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin: 0;
-   
-}
-
-.filtro li ul li:hover {
-    background-color: black;
-
-}
-
-.filtro ul li ul li a:hover {
-    color: white;
-}
-
-.filtro li ul {
-    display: none;
-    margin: 0;
-    width: 0;
-}
 
 .filtro ul > li:hover ul {
     display: block;
 }
+
+
 
 /* **** ÁREA MAIN **** */
 
@@ -142,44 +95,50 @@ button {
 }
 /* ***** Área do Rodapé ***** */
 
+/* ***** Área do Rodapé ***** */
+
 .footer {
     clear: both;
     text-align: center;
     background-color: black;
     margin-top: 30px;
     color: white;
+    display: flex;
 }
 
 .controdape {
     display: flex;  
     text-align: center;
-    width:600px;
+    width:50%;
     margin: 0 auto; 
     
 }
 
 .controdape p {
-    margin: 20px;
+    margin: 5%;
     text-decoration: none;
     color: white;
+    font-size: 80%;
     
 }
 .controdape p a {
    
     text-decoration: none;
-    color: white;  
+    color: white; 
+    font-size: 80%; 
 }
 
 .controdape p a:hover {
    
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 100%;
 }
 
 
 .controdape ul li {
     list-style: none;
-    padding: 5px;
+    padding: 2%;
+    font-size: 80%;
 }
 
 .controdape ul li a {
@@ -189,5 +148,5 @@ button {
 
 .controdape ul li a:hover {
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 100%;
 }

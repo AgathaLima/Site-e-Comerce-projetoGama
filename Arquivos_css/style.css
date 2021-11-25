@@ -1,41 +1,50 @@
-                        /* **** FORMATAÇÕES DE PÁGINA *** */
+/* **** FORMATAÇÕES DE PÁGINA *** */
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color:#e6e6e6;
+    background-color: rgb(223, 221, 221);
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
-                        /* **** ÁREA HEADER **** */
+/* **** ÁREA HEADER **** */
 
 header{
-    background-color:black;
-    width: 100%;
+    background-color:black
 }
+
+
+/* **** ÁREA DE NAVEGAÇÃO *** */
 
 nav {
     background-color: black;
     border: 2px groove white;
-    padding: 20px;
+    padding: 5%;
     margin: 0 auto;
     clear: both;
     text-align: center;
+    font-size: 70%;
+    
 }
  nav > a {
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 0 auto;
+    padding: 1%;
+   
+    
+
  }
 
  nav > a:hover {
     background-color: white;
     border-radius: 5px;
-    padding: 15px;
+    padding: 30%px;
     color: black;
-    font-size: 1.3em;
+    font-size: 100%;
  }
 
 .logo {
@@ -51,67 +60,12 @@ nav {
     height: 200px;
 }
 
-                       /* *** ÁREA DO FILTRO **** */
 
-.filtro {
-    background-color: white;
-    border: 1px solid gray;
-    color: black;
-    width: 130px;
-    height: 30px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    
-}
-
-.filtro ul {
-    list-style: none;
-    color: black;
-    width: 130px;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    
-}
-
-.filtro ul li {
-    background-color: white;
-    color: black;
-    width: 130px;
-    padding: 10px 0 10px 0;
-    margin: 0;
-   
-}
-
-.filtro ul a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin: 0;
-   
-}
-
-.filtro li ul li:hover {
-    background-color: black;
-
-}
-
-.filtro ul li ul li a:hover {
-    color: white;
-}
-
-.filtro li ul {
-    display: none;
-    margin: 0;
-    width: 0;
-}
 
 .filtro ul > li:hover ul {
     display: block;
 }
+
 
 
                         /* **** ÁREA MAIN **** */
@@ -119,106 +73,112 @@ nav {
 .container_principal {
     border: 1px solid red;
     background-color: #e6e6e6;
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 3%;
     display: flex;
 }
 
 .container1 {
     background-color: #e6e6e6;
     border: 1px solid blue;
-    margin: 30px auto;
-    float: right;
+    margin: 5% auto;
+    float: left;
     display: flex;
     flex-wrap: wrap;
-    width: 1100px;
+    width: 100%;
 }
-
 
 .produtos {
     text-align: center;
-    width: 150px;
+    width: 50%;
     padding: 1%;
-    margin: 2%;
+    margin: 2% auto;
     background-color: white;
     border: 2px groove black;
-    margin: 20px auto;
+}
+
+.produtos p {
+    font-size: 80%;
 }
 
 .tamanhoImg {
     width: 100%;
-    height: 50%;   
+    height: 70%;   
 }
 
 .area_blog {
     background-color: white;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
-    height: 600px   ;
-    width: 250px 
-  
+    border-radius: 5%px;
+    height: 30%;
+    width: 100%; 
+    border: 1px solid red;
+}
+
+.area_blog h3 {
+    background-color: rgb(97, 95, 95);
+    padding: 5%;
+    text-align: center;
+    margin: 2%;
+    color: white;
+    border-radius: 30% 0px 30% 0px;
+    font-size: 80%;
 }
 
 .area_blog p {
-    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2.5%;
+    font-size: 70%;
 }
-
 .cadastro {
     background-color: #e6e6e6;
     color: black;
-    padding: 10px;
+    padding: 5%;
     text-align: center;
-    margin: 10px;
+    margin: 5%;
 }
 
 h1 {
     text-align: justify;
     clear: both;
-    padding: 10px;
+    padding: 5%;
     background-color: rgb(97, 95, 95);
     color: white;
-    border-radius: 20px 0 20px 0;
-    
+    border-radius: 30% 0 30% 0;
+    font-size: 80%;
+    width: 70%;
 }
 
 
-h3 {
-    background-color: rgb(97, 95, 95);
-    padding: 10px;
-    text-align: center;
-    margin: 5px auto;
-    border-radius: 15px 0px 15px 0px;
-    color: white;
-}
+
 
                     /* **** ÁREA CADASTRO *** */
 #form {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10%;
     text-align: center;
     margin: 30px auto;
-    width: 700px;
-    height: 200px;
-    padding: 30px;
+    width: 90%;
+    height:10%;
+    padding: 5%px;
 }
 
 input {
-    width: 600px;
-    margin: 10px;
-    height: 25px ;
+    width: 70%;
+    margin: 5%;
+    height: 15%px ;
 }
 
 
 button {
     background-color: black;
     color: white;
-    width: 100px;
-    
+    width: 25%;
+    margin: 5%;
 }
-
-                   /* **** ÁREA FOOTER *** */
+    
+/* ***** Área do Rodapé ***** */
 
 .footer {
     clear: both;
@@ -226,38 +186,42 @@ button {
     background-color: black;
     margin-top: 30px;
     color: white;
+    display: flex;
 }
 
 .controdape {
     display: flex;  
     text-align: center;
-    width:600px;
+    width:50%;
     margin: 0 auto; 
     
 }
 
 .controdape p {
-    margin: 20px;
+    margin: 5%;
     text-decoration: none;
     color: white;
+    font-size: 80%;
     
 }
 .controdape p a {
    
     text-decoration: none;
-    color: white;  
+    color: white; 
+    font-size: 80%; 
 }
 
 .controdape p a:hover {
    
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 100%;
 }
 
 
 .controdape ul li {
     list-style: none;
-    padding: 5px;
+    padding: 2%;
+    font-size: 80%;
 }
 
 .controdape ul li a {
@@ -267,86 +231,5 @@ button {
 
 .controdape ul li a:hover {
     text-decoration: underline;
-    font-size: 1.3em;
-}
-
-@media only screen and (max-width: 375px){
- 
-    .container_principal {
-        border: 1px solid red;
-        background-color: #e6e6e6;
-        width: 375px;
-        margin: 0;
-        padding-top: 5px;
-        display: flex;
-    }
-    
-    .container1 {
-        background-color: #e6e6e6;
-        border: 1px solid blue;
-        margin: 30px auto;
-        float: right;
-        display: flex;
-        flex-wrap: wrap;
-        width: 200px;
-    }
-    
-    
-    .produtos {
-        text-align: center;
-        width: 150px;
-        padding: 1%;
-        margin: 2%;
-        background-color: white;
-        border: 2px groove black;
-        margin: 20px auto;
-    }
-    
-    .tamanhoImg {
-        width: 50px;
-        height: 50px;   
-    } 
-
-    .area_blog {
-        background-color: white;
-        border-radius: 10px;
-        margin-top: 30px;
-        padding: 10px;
-        height: 650px   ;
-        width: 150px;
-        font-size: 0.8em;  
-    }
-
-    .area_blog p {
-        padding: 5px;
-    }
-    
-    .cadastro {
-        background-color: #e6e6e6;
-        color: black;
-        padding: 10px;
-        text-align: center;
-        margin: 10px;
-    }
-    
-    h1 {
-        text-align: justify;
-        clear: both;
-        padding: 10px;
-        background-color: rgb(97, 95, 95);
-        color: white;
-        border-radius: 20px 0 20px 0;
-        font-size: 0.7em;  
-    }
-    
-       h3 {
-        background-color: rgb(97, 95, 95);
-        padding: 10px;
-        text-align: center;
-        margin: 5px auto;
-        border-radius: 15px 0px 15px 0px;
-        color: white;
-        font-size: 1em;
-    }
-
+    font-size: 100%;
 }
