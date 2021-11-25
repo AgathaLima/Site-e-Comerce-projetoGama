@@ -8,13 +8,13 @@ body {
     background-color: rgb(223, 221, 221);
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 /* **** ÁREA HEADER **** */
 
 header{
     background-color:black
 }
-
 
 
 /* **** ÁREA DE NAVEGAÇÃO *** */
@@ -54,63 +54,7 @@ nav {
     height: 200px;
 }
 
-/* *** ÁREA DO FILTRO **** */
 
-.filtro {
-    background-color: white;
-    border: 1px solid gray;
-    color: black;
-    width: 130px;
-    height: 30px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    
-}
-
-.filtro ul {
-    list-style: none;
-    color: black;
-    width: 130px;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    
-}
-
-.filtro ul li {
-    background-color: white;
-    color: black;
-    width: 130px;
-    padding: 10px 0 10px 0;
-    margin: 0;
-   
-}
-
-.filtro ul a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin: 0;
-   
-}
-
-.filtro li ul li:hover {
-    background-color: black;
-
-}
-
-.filtro ul li ul li a:hover {
-    color: white;
-}
-
-.filtro li ul {
-    display: none;
-    margin: 0;
-    width: 0;
-}
 
 .filtro ul > li:hover ul {
     display: block;
@@ -122,7 +66,7 @@ nav {
 .container_principal {
     background-color: #e6e6e6;
     border: 1px solid green;
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 5px;
     display: flex;
@@ -204,44 +148,196 @@ nav {
     font-size: 1.3em;
 }
 
+@media (max-width: 375px) {
 
-@media only screen and (min-width: 375px){
 
-    nav {
-        background-color: black;
-        border: 2px groove white;
-        padding: 20px;
-        margin: 0 auto;
-        clear: both;
-        text-align: center;
-    }
-     nav > a {
-        color: white;
-        text-decoration: none;
-        margin: 5px;
-        font-size: 0.7em;
-     }
+    /* **** ÁREA DE NAVEGAÇÃO *** */
+
+nav {
+    background-color: black;
+    border: 2px groove white;
+    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    font-size: 0.5em;
+}
+ nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+ }
+
+ nav > a:hover {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+    font-size: 1.3em;
+ }
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.logoimg{
+    width: 200px;
+    height: 200px;
+}
+
+/* main */
     
-     nav > a:hover {
-        background-color: white;
-        border-radius: 5px;
-        padding: 5px;
-        color: black;
-        font-size: 1.3em;
-     }
-
     .container_principal {
         background-color: #e6e6e6;
         border: 1px solid green;
-        width: 375px;
-        margin: 0 auto;
+        width: 100%;
         padding-top: 2px;
         display: flex;
-    }
+        
     
+    }
+
+
     .container1 {
         background-color: white;
         border: 1px solid red;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .produtos {
+        text-align: center;
+        width: 80%;
+        padding: 1%;
+        border-bottom: 1px solid rgb(163, 162, 162) ;
+        border: 1px solid black;
+        
+    }
+    
+    .tamanhoImg {
+        width: 200px;
+        height: 250px;
+    }
+    
+/* ***** Área do Rodapé ***** */
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+}
+
+.controdape {
+    display: flex;  
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 0.7em;
+    
+}
+
+.controdape p {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.controdape p a {
+   
+    text-decoration: none;
+    color: white; 
+     
+
+}
+
+.controdape p a:hover {
+   
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+
+.controdape ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.controdape ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.controdape ul li a:hover {
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+}
+
+
+@media (max-width: 1024px){
+
+        /* **** ÁREA DE NAVEGAÇÃO *** */
+
+nav {
+    background-color: black;
+    border: 2px groove white;
+    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    font-size: 0.8em;
+}
+ nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+ }
+
+ nav > a:hover {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+    font-size: 1.3em;
+ }
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.logoimg{
+    width: 200px;
+    height: 200px;
+}
+
+/* main */
+    
+    .container_principal {
+        background-color: #e6e6e6;
+        border: 1px solid green;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 5px;
+        display: flex;
+    }
+
+
+    .container1 {
+        background-color: white;
+        border: 1px solid red;
+        width: 100%;
         margin: auto;
         float: right;
         display: flex;
@@ -250,18 +346,75 @@ nav {
     
     .produtos {
         text-align: center;
-        width: 350px;
-        height: 300px;
+        width: 20%;
+        
         padding: 1%;
-        margin: 2%;
+        margin: 5%;
         border-bottom: 1px solid rgb(163, 162, 162) ;
         border: 1px solid black;
     }
     
     .tamanhoImg {
-        width: 150px;
-        height: 200px 
+        width: 200px;
+        height: 250px 
     }
+    
+/* ***** Área do Rodapé ***** */
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+}
+
+.controdape {
+    display: flex;  
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 1em;
+    
+}
+
+.controdape p {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.controdape p a {
+   
+    text-decoration: none;
+    color: white; 
+     
+
+}
+
+.controdape p a:hover {
+   
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+
+.controdape ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.controdape ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.controdape ul li a:hover {
+    text-decoration: underline;
+    font-size: 1.3em;
+}
 
 
 }
+
+
