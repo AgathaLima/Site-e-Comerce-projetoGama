@@ -203,3 +203,65 @@ nav {
     text-decoration: underline;
     font-size: 1.3em;
 }
+
+
+@media only screen and (min-width: 375px){
+
+    nav {
+        background-color: black;
+        border: 2px groove white;
+        padding: 20px;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+     nav > a {
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+        font-size: 0.7em;
+     }
+    
+     nav > a:hover {
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px;
+        color: black;
+        font-size: 1.3em;
+     }
+
+    .container_principal {
+        background-color: #e6e6e6;
+        border: 1px solid green;
+        width: 375px;
+        margin: 0 auto;
+        padding-top: 2px;
+        display: flex;
+    }
+    
+    .container1 {
+        background-color: white;
+        border: 1px solid red;
+        margin: auto;
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .produtos {
+        text-align: center;
+        width: 350px;
+        height: 300px;
+        padding: 1%;
+        margin: 2%;
+        border-bottom: 1px solid rgb(163, 162, 162) ;
+        border: 1px solid black;
+    }
+    
+    .tamanhoImg {
+        width: 150px;
+        height: 200px 
+    }
+
+
+}

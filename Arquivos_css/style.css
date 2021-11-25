@@ -1,4 +1,4 @@
-/* **** FORMATAÇÕES DE PÁGINA *** */
+                        /* **** FORMATAÇÕES DE PÁGINA *** */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* **** ÁREA HEADER **** */
+                        /* **** ÁREA HEADER **** */
 
 header{
     background-color:black;
@@ -51,7 +51,7 @@ nav {
     height: 200px;
 }
 
-/* *** ÁREA DO FILTRO **** */
+                       /* *** ÁREA DO FILTRO **** */
 
 .filtro {
     background-color: white;
@@ -114,9 +114,10 @@ nav {
 }
 
 
-/* **** ÁREA MAIN **** */
+                        /* **** ÁREA MAIN **** */
 
 .container_principal {
+    border: 1px solid red;
     background-color: #e6e6e6;
     width: 1400px;
     margin: 0 auto;
@@ -126,6 +127,7 @@ nav {
 
 .container1 {
     background-color: #e6e6e6;
+    border: 1px solid blue;
     margin: 30px auto;
     float: right;
     display: flex;
@@ -191,7 +193,7 @@ h3 {
     color: white;
 }
 
-/* **** ÁREA CADASTRO *** */
+                    /* **** ÁREA CADASTRO *** */
 #form {
     background-color: white;
     border-radius: 20px;
@@ -216,7 +218,7 @@ button {
     
 }
 
-/* **** ÁREA FOOTER *** */
+                   /* **** ÁREA FOOTER *** */
 
 .footer {
     clear: both;
@@ -268,83 +270,91 @@ button {
     font-size: 1.3em;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px){
+
+     
+    /* main */
+ 
+    .container_principal {
+        border: 1px solid red;
+        background-color: #e6e6e6;
+        width: 375px;
+        margin: 0;
+        padding-top: 5px;
+        display: flex;
+    }
     
-/* CABEÇALHO */ 
-
-/* MAIN */
-
-.container_principal {
+    .container1 {
+        background-color: #e6e6e6;
+        border: 1px solid blue;
+        margin: 30px auto;
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
     
-    width: 375px;
-    margin: 0 auto;
-    padding-top: 2px;
-    display: flex;
-}
-
-.container1 {
     
-    margin: 10px auto;
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-    width: 375px;
-}
-
-
-.produtos {
-    text-align: center;
-    width: 50px;
-    padding: 1%;
-    margin: 2%;
-    background-color: white;
-    border: 2px groove black;
-    margin: 2px auto;
-}
-
-.tamanhoImg {
-    width: 100%;
-    height: 50%;   
-}
-
-.area_blog {
-    background-color: white;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
-    height: 200px   ;
-    width: 75px 
-  
-}
-
-.area_blog p {
-    padding: 5px;
-}
-
-.cadastro {
-    background-color: #e6e6e6;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-}
-
-h1 {
-    text-align: justify;
-    clear: both;
-    padding: 10px;
-    background-color: rgb(97, 95, 95);
-    color: white;
-    border-radius: 20px 0 20px 0;
+    .produtos {
+        text-align: center;
+        width: 150px;
+        padding: 1%;
+        margin: 2%;
+        background-color: white;
+        border: 2px groove black;
+        margin: 20px auto;
+    }
     
-}
+    .tamanhoImg {
+        width: 50px;
+        height: 50px;   
+    } 
 
+    .area_blog {
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding: 10px;
+        height: 650px   ;
+        width: 150px;
+        font-size: 0.8em;
+      
+    }
+    
+    /* area blog */
 
-h3 {
-    background-color: rgb(97, 95, 95);
-    padding: 10px;
-    text-align: center;
-    margin: 5px auto;
-    border-radius: 15px 0px 15px 0px;
-    color: white;
+    .area_blog p {
+        padding: 5px;
+    }
+    
+    .cadastro {
+        background-color: #e6e6e6;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    h1 {
+        text-align: justify;
+        clear: both;
+        padding: 10px;
+        background-color: rgb(97, 95, 95);
+        color: white;
+        border-radius: 20px 0 20px 0;
+        font-size: 0.7em;
+        
+    }
+    
+    
+    h3 {
+        background-color: rgb(97, 95, 95);
+        padding: 10px;
+        text-align: center;
+        margin: 5px auto;
+        border-radius: 15px 0px 15px 0px;
+        color: white;
+        font-size: 1em;
+    }
+
 }
