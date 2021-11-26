@@ -1,7 +1,7 @@
 
 <a href="https://agathalima.github.io/Site-e-Comerce-projetoGama/Arquivos_html/index.html"> ----> NAVEGUE PELO PROJETO AQUI <---- </a>
 
-#Olá! 👋
+# Olá! 👋
 
 Esse site foi um projeto do Nano degree Gama Academy.
 
@@ -28,6 +28,6 @@ Pré requesitos do projeto:
 
 - As páginas devem ser responsivas e oferecer boa experiência em diferentes tamanhos de dispositivos.
 
- # ❤️ Espero que goste! ❤️
+  ❤️ Espero que goste! ❤️
 
 # <a href="https://agathalima.github.io/Site-e-Comerce-projetoGama/Arquivos_html/index.html"> ----> NAVEGUE PELO PROJETO AQUI <---- </a>
