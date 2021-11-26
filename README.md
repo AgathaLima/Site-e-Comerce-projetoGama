@@ -1,11 +1,13 @@
 
 <a href="https://agathalima.github.io/Site-e-Comerce-projetoGama/Arquivos_html/index.html"> ----> NAVEGUE PELO PROJETO AQUI <---- </a>
 
-Olá! 👋
+#Olá! 👋
 
 Esse site foi um projeto do Nano degree Gama Academy.
 
-A proposta do projeto é um site completo de vendas, utilizando apenas HTML e CSS (deve ser responsivo).
+A proposta do projeto é um site completo de vendas, utilizando apenas HTML e CSS. 
+
+*** ESTE SITE É RESPOSSIVO PARA TODOS OS SMARTPHONES, TABLETS, DESKTOPS E TVs ****
 
 
 Pré requesitos do projeto:
@@ -26,4 +28,6 @@ Pré requesitos do projeto:
 
 - As páginas devem ser responsivas e oferecer boa experiência em diferentes tamanhos de dispositivos.
 
- ❤️ Espero que goste! ❤️
+ # ❤️ Espero que goste! ❤️
+
+# <a href="https://agathalima.github.io/Site-e-Comerce-projetoGama/Arquivos_html/index.html"> ----> NAVEGUE PELO PROJETO AQUI <---- </a>
